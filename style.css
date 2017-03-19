@@ -1,0 +1,21 @@
+
+#content > div {
+	opacity: 0;
+}
+.invisible{
+	display: none;
+}
+/*.visible{
+	display: block;
+	opacity: 1;
+	transition: all 1s ease;
+}*/
+.items{
+	display: flex;
+	width: 100%;
+}
+.item img{
+	width: 300px;
+	height: auto;
+
+}
