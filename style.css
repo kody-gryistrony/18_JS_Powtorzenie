@@ -1,15 +1,12 @@
-
-#content > div {
-	opacity: 0;
-}
+/*#content > div {
+	display: flex;
+}*/
 .invisible{
 	display: none;
 }
-/*.visible{
+.visible{
 	display: block;
-	opacity: 1;
-	transition: all 1s ease;
-}*/
+}
 .items{
 	display: flex;
 	width: 100%;
@@ -18,4 +15,7 @@
 	width: 300px;
 	height: auto;
 
+}
+nav li{
+	cursor: pointer;
 }
